@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_search {
+    margin: 20px auto;
+    width: 800px;
+    height: 60px
+}
+
+/* The point of this tutorial is here */
+.form_search {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -36px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.search-right {
+    margin-right: 250px;
+    line-height: 1.45em;
+}
+
+.container_countries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px 200px 0px 200px
+
+}
+
+.item_countries {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 190px;
+     height: 170px;
+     background: #F22FFF;
+     margin:15px;
+     justify-content: center;
+     border-radius: 30px;
+}
+p_count{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tourcart{
+    background-color: #116C80;
+    color: white;
+    border-radius: 10px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 0;
+}
+.tourcart_icon{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    text-align: start;
+    align-self: baseline;
+    vertical-align: inherit;
+}
+.tourcart_table{
+    background-color: #116C80;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.input_home{
+    padding: 10px 16px;
+    background: #004da0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+    text-align: center;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+

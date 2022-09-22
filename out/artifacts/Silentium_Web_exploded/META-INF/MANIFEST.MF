@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Sonya
+Build-Jdk: Amazon Corretto version 1.8.0_332
+Implementation-Title: Silentium
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com
+Main-Class: ${start-class}
+
